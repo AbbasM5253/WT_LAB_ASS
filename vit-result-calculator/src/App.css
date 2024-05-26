@@ -1,0 +1,78 @@
+/* App.css */
+body {
+  background-color: #6d7d76; 
+}
+.app-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.subject-input {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #5eaaa8; /* Teal color for border */
+  border-radius: 8px;
+  max-width: 300px;
+  background-color: #f0f7f4; /* Light teal background */
+}
+
+.subject-input h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #5eaaa8; /* Teal color for subject name */
+}
+
+.marks-input {
+  margin-bottom: 15px;
+}
+
+.marks-input label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.marks-input input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Result.css */
+.result {
+  margin-top: 10px;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.result h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.result p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+h1 {
+  color: #121212; /* Teal color for heading */
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
